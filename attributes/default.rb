@@ -24,5 +24,6 @@ default['ssl-vault']['data_bag_key_replacement_str'] = '_'
 default['ssl-vault']['private_key_file'] = nil
 default['ssl-vault']['certificate_file'] = nil
 default['ssl-vault']['pem_file'] = nil
+default['ssl-vault']['chain_file'] = nil
 default['ssl-vault']['combined_chain_file'] = nil
 default['ssl-vault']['combined_chain_pem_file'] = nil

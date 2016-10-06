@@ -40,6 +40,7 @@ customization by you, the user:
 - `['ssl-vault']['private_key_file']` - String name of private key file.
 - `['ssl-vault']['certificate_file']` - String name of certificate file.
 - `['ssl-vault']['pem_file']` - String name of PEM file.
+- `['ssl-vault']['chain_file']` - String name of simple chain file.
 - `['ssl-vault']['combined_chain_file']` - String name of combined chain file.
 - `['ssl-vault']['combined_chain_pem_file']` - String name of combined chain
   PEM file.
@@ -71,6 +72,7 @@ This Cookbook provides several Recipes:
   `chef-vault` Cookbook.
 - `certificate_directory.rb` - Creates certificate (and chain) directory.
 - `certificate_file.rb` - Creates certificate file.
+- `chain_file.rb` - Creates simple chain file.
 - `combined_chain_file.rb` - Creates combined chain file.
 - `combined_chain_pem_file.rb` - Creates combined chain PEM file.
 - `pem_file.rb` - Creates PEM file.
